@@ -1,0 +1,18 @@
+.id-card {
+  min-width: 400px;
+  margin: 20px;
+  border: 1px solid rgb(99, 4, 4);
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  gap: 20px;
+  text-align: left;
+}
+
+.gender-male {
+  background-color: aqua;
+}
+
+.gender-female {
+  background-color: pink;
+}

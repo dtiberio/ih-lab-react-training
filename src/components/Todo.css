@@ -1,0 +1,15 @@
+.todo {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.todo.done {
+  background-color: rgb(5, 128, 5);
+  text-decoration: line-through;
+}
+
+.todo.undone {
+  background-color: rgb(228, 60, 51);
+}

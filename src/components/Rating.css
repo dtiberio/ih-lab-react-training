@@ -1,0 +1,18 @@
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 2rem; /* Adjust the star size as needed */
+  color: #ffd700; /* Gold color for filled stars */
+  /* Optional: add some spacing */
+  gap: 0.2rem;
+}
+
+/* the last setting wins */
+.rating {
+  display: flex;
+  justify-content: center; /* This centers items horizontally */
+  align-items: center; /* This centers items vertically */
+  font-size: 2rem;
+  color: #1127ec;
+  gap: 0.2rem;
+}

@@ -1,0 +1,12 @@
+.greetings {
+  min-width: 300px;
+  margin: 20px;
+  border: 1px solid rgb(12, 67, 185);
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  /* Works only if there are multiple children inside flex or grid */
+  gap: 20px; /* This is the gap between the two children */
+  text-align: left;
+  font-weight: bold;
+}

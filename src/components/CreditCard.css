@@ -1,0 +1,61 @@
+/* Container to arrange credit cards in rows of 3 */
+.credit-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Space between cards */
+  justify-items: center;
+  padding: 20px;
+}
+
+/* Styles for an individual credit card */
+.credit-card {
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fff; /* Default background (can be overridden via props) */
+  color: #000; /* Default text color (can be overridden via props) */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px; /* Spacing below the logo */
+}
+
+.card-logo {
+  width: 60px;
+  height: auto;
+}
+
+.card-number {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 10px; /* Spacing below the card number */
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px; /* Spacing below expiration and bank info */
+}
+
+.bank {
+  font-weight: bold;
+}
+
+.card-owner {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
