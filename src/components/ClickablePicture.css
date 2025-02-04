@@ -1,0 +1,19 @@
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centers it vertically on the screen */
+}
+
+.circle-image {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Keep it square for perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fits well inside the circle */
+  cursor: pointer; /* Indicate clickability */
+  transition: transform 0.3s ease-in-out; /* Adds a nice effect when clicking */
+}
+
+.circle-image:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}

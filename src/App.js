@@ -9,6 +9,11 @@ import Greetings from './components/Greetings';
 import todos from './assets/todos.json';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
+import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
 
 function App() {
   return (
@@ -121,6 +126,36 @@ function App() {
           licensePlate: 'BE33ER',
         }}
       />
+
+      <p className="bold-text">### Iteration 8 | State: `LikeButton`</p>
+
+      <LikeButton />
+      <LikeButton />
+
+      <p className="bold-text">### Iteration 9 | State: `ClickablePicture`</p>
+
+      <ClickablePicture img="maxence.png" imgClicked="maxence-glasses.png" />
+
+      <p className="bold-text">### Iteration 10 | State: `Dice`</p>
+
+      <Dice />
+
+      <p className="bold-text">### Iteration 11 | State: `Carousel`</p>
+
+      <Carousel
+        images={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg',
+        ]}
+      />
+
+      <p className="bold-text">
+        ### Iteration 12 | List and Keys | `NumbersTable`
+      </p>
+
+      <NumbersTable limit={12} />
     </div>
   );
 }
