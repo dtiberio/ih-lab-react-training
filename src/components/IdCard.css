@@ -16,3 +16,9 @@
 .gender-female {
   background-color: pink;
 }
+
+/* .info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */

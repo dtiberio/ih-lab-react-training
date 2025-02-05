@@ -2,6 +2,7 @@ import './App.css';
 import IdCard from './components/IdCard';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import BSBoxColor from './components/BSBoxColor';
 import CreditCard from './components/CreditCard';
 import './components/CreditCard.css'; // required for credit card container styling
 import Todo from './components/Todo';
@@ -54,6 +55,14 @@ function App() {
       <div>
         <BoxColor r={255} g={0} b={0} />
         <BoxColor r={128} g={255} b={0} />
+      </div>
+
+      <p className="bold-text">
+        ### Iteration 4 with Bootstrap | Component: `BoxColor`
+      </p>
+      <div>
+        <BSBoxColor r={255} g={0} b={0} />
+        <BSBoxColor r={128} g={255} b={0} />
       </div>
 
       <p className="bold-text">### Conditional Styling | Component: `Todo`</p>
