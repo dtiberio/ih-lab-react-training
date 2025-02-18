@@ -1,0 +1,32 @@
+.signup-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.valid-input {
+  border: 2px solid green !important;
+}
+
+.invalid-input {
+  border: 2px solid red !important;
+}
+
+.greeting-box {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
